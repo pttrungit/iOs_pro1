@@ -15,7 +15,7 @@ class webViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Load Web
-        
+        //version 002
         let url = NSURL(string: "http://mobifone.com.vn/wps/portal/public")
         
         let request = NSURLRequest(URL: url!)
