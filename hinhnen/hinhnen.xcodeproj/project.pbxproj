@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A96C4D71EB09D23008DDCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96C4D61EB09D23008DDCF6 /* AppDelegate.swift */; };
+		8A96C4D91EB09D23008DDCF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96C4D81EB09D23008DDCF6 /* ViewController.swift */; };
+		8A96C4DC1EB09D23008DDCF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A96C4DA1EB09D23008DDCF6 /* Main.storyboard */; };
+		8A96C4DE1EB09D23008DDCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A96C4DD1EB09D23008DDCF6 /* Assets.xcassets */; };
+		8A96C4E11EB09D23008DDCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A96C4DF1EB09D23008DDCF6 /* LaunchScreen.storyboard */; };
+		8A96C4EC1EB09D23008DDCF6 /* hinhnenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96C4EB1EB09D23008DDCF6 /* hinhnenTests.swift */; };
+		8A96C4F71EB09D23008DDCF6 /* hinhnenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96C4F61EB09D23008DDCF6 /* hinhnenUITests.swift */; };
+		8A96C5061EB09D83008DDCF6 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A96C5051EB09D83008DDCF6 /* img1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A96C4E81EB09D23008DDCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A96C4CB1EB09D23008DDCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A96C4D21EB09D23008DDCF6;
+			remoteInfo = hinhnen;
+		};
+		8A96C4F31EB09D23008DDCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A96C4CB1EB09D23008DDCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A96C4D21EB09D23008DDCF6;
+			remoteInfo = hinhnen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A96C4D31EB09D23008DDCF6 /* hinhnen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hinhnen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A96C4D61EB09D23008DDCF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A96C4D81EB09D23008DDCF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A96C4DB1EB09D23008DDCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A96C4DD1EB09D23008DDCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A96C4E01EB09D23008DDCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A96C4E21EB09D23008DDCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A96C4E71EB09D23008DDCF6 /* hinhnenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hinhnenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A96C4EB1EB09D23008DDCF6 /* hinhnenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hinhnenTests.swift; sourceTree = "<group>"; };
+		8A96C4ED1EB09D23008DDCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A96C4F21EB09D23008DDCF6 /* hinhnenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hinhnenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A96C4F61EB09D23008DDCF6 /* hinhnenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hinhnenUITests.swift; sourceTree = "<group>"; };
+		8A96C4F81EB09D23008DDCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A96C5051EB09D83008DDCF6 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img1.jpg; path = ../../../../../Users/cuscedu/Downloads/img1.jpg; sourceTree = "<group>"; };
+		8A96C5071EB0A3D8008DDCF6 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Yellowtail-Regular.ttf"; path = "../../../../../Users/cuscedu/Downloads/Yellowtail/Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A96C4D01EB09D23008DDCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A96C4E41EB09D23008DDCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A96C4EF1EB09D23008DDCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A96C4CA1EB09D23008DDCF6 = {
+			isa = PBXGroup;
+			children = (
+				8A96C4D51EB09D23008DDCF6 /* hinhnen */,
+				8A96C4EA1EB09D23008DDCF6 /* hinhnenTests */,
+				8A96C4F51EB09D23008DDCF6 /* hinhnenUITests */,
+				8A96C4D41EB09D23008DDCF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A96C4D41EB09D23008DDCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A96C4D31EB09D23008DDCF6 /* hinhnen.app */,
+				8A96C4E71EB09D23008DDCF6 /* hinhnenTests.xctest */,
+				8A96C4F21EB09D23008DDCF6 /* hinhnenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A96C4D51EB09D23008DDCF6 /* hinhnen */ = {
+			isa = PBXGroup;
+			children = (
+				8A96C5041EB09D4A008DDCF6 /* images */,
+				8A96C4D61EB09D23008DDCF6 /* AppDelegate.swift */,
+				8A96C4D81EB09D23008DDCF6 /* ViewController.swift */,
+				8A96C4DA1EB09D23008DDCF6 /* Main.storyboard */,
+				8A96C4DD1EB09D23008DDCF6 /* Assets.xcassets */,
+				8A96C4DF1EB09D23008DDCF6 /* LaunchScreen.storyboard */,
+				8A96C4E21EB09D23008DDCF6 /* Info.plist */,
+			);
+			path = hinhnen;
+			sourceTree = "<group>";
+		};
+		8A96C4EA1EB09D23008DDCF6 /* hinhnenTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A96C4EB1EB09D23008DDCF6 /* hinhnenTests.swift */,
+				8A96C4ED1EB09D23008DDCF6 /* Info.plist */,
+			);
+			path = hinhnenTests;
+			sourceTree = "<group>";
+		};
+		8A96C4F51EB09D23008DDCF6 /* hinhnenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A96C4F61EB09D23008DDCF6 /* hinhnenUITests.swift */,
+				8A96C4F81EB09D23008DDCF6 /* Info.plist */,
+			);
+			path = hinhnenUITests;
+			sourceTree = "<group>";
+		};
+		8A96C5041EB09D4A008DDCF6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8A96C5071EB0A3D8008DDCF6 /* Yellowtail-Regular.ttf */,
+				8A96C5051EB09D83008DDCF6 /* img1.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A96C4D21EB09D23008DDCF6 /* hinhnen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A96C4FB1EB09D23008DDCF6 /* Build configuration list for PBXNativeTarget "hinhnen" */;
+			buildPhases = (
+				8A96C4CF1EB09D23008DDCF6 /* Sources */,
+				8A96C4D01EB09D23008DDCF6 /* Frameworks */,
+				8A96C4D11EB09D23008DDCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hinhnen;
+			productName = hinhnen;
+			productReference = 8A96C4D31EB09D23008DDCF6 /* hinhnen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A96C4E61EB09D23008DDCF6 /* hinhnenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A96C4FE1EB09D23008DDCF6 /* Build configuration list for PBXNativeTarget "hinhnenTests" */;
+			buildPhases = (
+				8A96C4E31EB09D23008DDCF6 /* Sources */,
+				8A96C4E41EB09D23008DDCF6 /* Frameworks */,
+				8A96C4E51EB09D23008DDCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A96C4E91EB09D23008DDCF6 /* PBXTargetDependency */,
+			);
+			name = hinhnenTests;
+			productName = hinhnenTests;
+			productReference = 8A96C4E71EB09D23008DDCF6 /* hinhnenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A96C4F11EB09D23008DDCF6 /* hinhnenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A96C5011EB09D23008DDCF6 /* Build configuration list for PBXNativeTarget "hinhnenUITests" */;
+			buildPhases = (
+				8A96C4EE1EB09D23008DDCF6 /* Sources */,
+				8A96C4EF1EB09D23008DDCF6 /* Frameworks */,
+				8A96C4F01EB09D23008DDCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A96C4F41EB09D23008DDCF6 /* PBXTargetDependency */,
+			);
+			name = hinhnenUITests;
+			productName = hinhnenUITests;
+			productReference = 8A96C4F21EB09D23008DDCF6 /* hinhnenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A96C4CB1EB09D23008DDCF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cuscedu;
+				TargetAttributes = {
+					8A96C4D21EB09D23008DDCF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8A96C4E61EB09D23008DDCF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8A96C4D21EB09D23008DDCF6;
+					};
+					8A96C4F11EB09D23008DDCF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8A96C4D21EB09D23008DDCF6;
+					};
+				};
+			};
+			buildConfigurationList = 8A96C4CE1EB09D23008DDCF6 /* Build configuration list for PBXProject "hinhnen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A96C4CA1EB09D23008DDCF6;
+			productRefGroup = 8A96C4D41EB09D23008DDCF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A96C4D21EB09D23008DDCF6 /* hinhnen */,
+				8A96C4E61EB09D23008DDCF6 /* hinhnenTests */,
+				8A96C4F11EB09D23008DDCF6 /* hinhnenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A96C4D11EB09D23008DDCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A96C4E11EB09D23008DDCF6 /* LaunchScreen.storyboard in Resources */,
+				8A96C5061EB09D83008DDCF6 /* img1.jpg in Resources */,
+				8A96C4DE1EB09D23008DDCF6 /* Assets.xcassets in Resources */,
+				8A96C4DC1EB09D23008DDCF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A96C4E51EB09D23008DDCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A96C4F01EB09D23008DDCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A96C4CF1EB09D23008DDCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A96C4D91EB09D23008DDCF6 /* ViewController.swift in Sources */,
+				8A96C4D71EB09D23008DDCF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A96C4E31EB09D23008DDCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A96C4EC1EB09D23008DDCF6 /* hinhnenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A96C4EE1EB09D23008DDCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A96C4F71EB09D23008DDCF6 /* hinhnenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A96C4E91EB09D23008DDCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A96C4D21EB09D23008DDCF6 /* hinhnen */;
+			targetProxy = 8A96C4E81EB09D23008DDCF6 /* PBXContainerItemProxy */;
+		};
+		8A96C4F41EB09D23008DDCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A96C4D21EB09D23008DDCF6 /* hinhnen */;
+			targetProxy = 8A96C4F31EB09D23008DDCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A96C4DA1EB09D23008DDCF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A96C4DB1EB09D23008DDCF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A96C4DF1EB09D23008DDCF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A96C4E01EB09D23008DDCF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A96C4F91EB09D23008DDCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A96C4FA1EB09D23008DDCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A96C4FC1EB09D23008DDCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hinhnen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cusc.hinhnen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A96C4FD1EB09D23008DDCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hinhnen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cusc.hinhnen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A96C4FF1EB09D23008DDCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hinhnenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cusc.hinhnenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hinhnen.app/hinhnen";
+			};
+			name = Debug;
+		};
+		8A96C5001EB09D23008DDCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hinhnenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cusc.hinhnenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hinhnen.app/hinhnen";
+			};
+			name = Release;
+		};
+		8A96C5021EB09D23008DDCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hinhnenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cusc.hinhnenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hinhnen;
+			};
+			name = Debug;
+		};
+		8A96C5031EB09D23008DDCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hinhnenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cusc.hinhnenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hinhnen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A96C4CE1EB09D23008DDCF6 /* Build configuration list for PBXProject "hinhnen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A96C4F91EB09D23008DDCF6 /* Debug */,
+				8A96C4FA1EB09D23008DDCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A96C4FB1EB09D23008DDCF6 /* Build configuration list for PBXNativeTarget "hinhnen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A96C4FC1EB09D23008DDCF6 /* Debug */,
+				8A96C4FD1EB09D23008DDCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A96C4FE1EB09D23008DDCF6 /* Build configuration list for PBXNativeTarget "hinhnenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A96C4FF1EB09D23008DDCF6 /* Debug */,
+				8A96C5001EB09D23008DDCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A96C5011EB09D23008DDCF6 /* Build configuration list for PBXNativeTarget "hinhnenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A96C5021EB09D23008DDCF6 /* Debug */,
+				8A96C5031EB09D23008DDCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A96C4CB1EB09D23008DDCF6 /* Project object */;
+}

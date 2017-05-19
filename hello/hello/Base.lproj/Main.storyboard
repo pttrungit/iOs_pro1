@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Yellowtail-Regular.ttf">
+            <string>Yellowtail</string>
+            <string>Yellowtail</string>
+            <string>Yellowtail</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hello" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGz-tz-YK5">
+                                <rect key="frame" x="196" y="163" width="236" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button alpha="0.69999999999999996" contentMode="bottomRight" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="D4x-WC-jot">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.90490652901915436" blue="0.30281568823406602" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Yellowtail" family="Yellowtail" pointSize="15"/>
+                                <size key="titleShadowOffset" width="7" height="10"/>
+                                <state key="normal" title="Sign in">
+                                    <color key="titleColor" red="0.50738064240533443" green="0.1316558429597792" blue="0.93884980366492143" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.9454787939" green="1" blue="0.273883824" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Yellowtail" family="Yellowtail" pointSize="15"/>
+                                    <rect key="frame" x="211" y="232" width="75" height="43"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEc-I2-XQu">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.8511774735247597" blue="0.32221988349332209" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Yellowtail" family="Yellowtail" pointSize="15"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="0.51709948056116373" green="0.011817272627467568" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="311" y="232" width="78" height="43"/>
+                                </variation>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1j-jI-t3O">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">Áo Tím Ngày Xưa  Áo em màu tím đẹp như mơ ,  Gió thoảng tà bay rộn ý thơ . Sắc tím tô màu em duyên dáng. Hồng nhung đỏ thắm cũng lu mờ </string>
+                                <fontDescription key="fontDescription" name="Yellowtail" family="Yellowtail" pointSize="18"/>
+                                <color key="textColor" red="0.051642614433145467" green="0.0013390681265071835" blue="0.93884980366492143" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="196" y="291" width="218" height="131"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ao-tim4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7mr-0z-ff9">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.2162435561063365" blue="0.48879637261932551" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="D4x-WC-jot"/>
+                                <exclude reference="iEc-I2-XQu"/>
+                                <exclude reference="S1j-jI-t3O"/>
+                                <exclude reference="7mr-0z-ff9"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="D4x-WC-jot"/>
+                                <include reference="iEc-I2-XQu"/>
+                                <include reference="S1j-jI-t3O"/>
+                                <include reference="7mr-0z-ff9"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="lbHello" destination="nGz-tz-YK5" id="hhs-WU-Pya"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="462"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ao-tim4.jpg" width="470" height="659"/>
+    </resources>
+</document>
